@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.logo{
+    height: 100px;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  align-items: center;
+  padding: 10px;
+}
+
+
+.flex {
+  display: flex;
+  width: 20px;
+  justify-content: space-between;
+}
+
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+.hero{
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-contenido{
+  background-image: url(Recursos/Recuerdo.jpg);
+  background-repeat: no-repeat;
+/*background-position: cover;*/
+  height: 100%;
+  width: 100%;
+}
+
+.hero-contenido p{
+  color: white;
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.multimedia{
+  display: flex;
+  flex-direction: column;
+}
+
+.musica, .cine, .moda{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.titulo{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+h1,p {
+  display: flex;
+  justify-content: center;
+}
+
+
+.frase{
+
+}
+
+
+.footer{
+  margin-top: 200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer p{
+  font-weight: bold;
+}
+
+.iconos-redes{
+  margin: 0 auto;
+  display: flex;
+  width: 20px;
+  justify-content:space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconos-comunicacion{
+  margin: 0 auto;
+  display: flex;
+  width: 20px;
+  justify-content:space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.terminos-condiciones{
+  display: flex;
+  align-items: flex-end;
+  margin: 0 auto;
+}
